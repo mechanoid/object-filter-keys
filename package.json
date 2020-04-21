@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/object-filter-keys-test.js"
   },
   "author": "Falk Hoppe <falkhoppe81@gmail.com>",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "object-filter-keys": "bin/object-filter-keys.js"
   },
   "devDependencies": {
+    "baretest": "^2.0.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
